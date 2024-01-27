@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(218, 202, 182);
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    line-gap-override: 26px;
+}
+
+button{
+    background-color: burlywood;
+}

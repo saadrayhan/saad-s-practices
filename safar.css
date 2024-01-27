@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+
+*{
+    margin: 0px;
+    /* border: 0px; */
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-decoration: none;
+    
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display:flex;
+    
+}
+a{
+    text-decoration: none;
+    color: #38384f;
+}
+.topbar{
+    height: 40px;
+    background-color: black;
+    text-transform: capitalize;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
+
+.sale{
+    color: rgb(246, 245, 245);
+    margin-right: 12px;
+    text-transform: capitalize;
+    margin-top: 7px;
+}
+
+.sale1{
+    color: rgb(246, 245, 245);
+    margin-right: 12px;
+    text-transform: capitalize;
+    margin-top: 7px;
+}
+
+.shope-button {
+    position: relative;
+    overflow: hidden;
+    background-color: #0a0a0b;
+    color: #fff;
+    padding: 0px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+  }
+
+  
+.shope-button::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 0.5s ease; /* Animate the width property */
+  }
+  
+.shope-button:hover {
+    background-color: #333; /* Change the background color on hover */
+  }
+  
+.shope-button:hover::before {
+    width: 90%;
+  }
+  
+  
+  button:active::before {
+    width: 80%; /* Expand the line to 100% width when the button is clicked */
+  }
+  
+.navbar{
+    /* background-color: #fffffff2; */
+    background-color: transparent;
+    height: 80px;
+    display: flex;
+    text-transform: capitalize;
+    position: relative;
+    color: white;
+    gap: 20px;
+    padding: 30px 0 0 30px;
+    
+}
+
+.navbar h2{
+    font-size: 30px;
+}
+
+.navbar ul a {
+    color: #f7f7f7;
+    margin-top: 10px;
+    padding-left: 15px;
+    
+}
+
+
+.fa-cart-shopping {
+    height: auto;
+
+}
+
+.hero{
+    display: flex;
+    justify-content:center;
+    
+}
+
+.header{
+    width: 80%;
+    background-image: url(./shoes.webp);
+    background-size: cover;
+    height: 96vh;
+}
+.aside {
+    width: 20%;
+    padding: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 20px; /* Increase margin-bottom to provide space for the .off div */
+}
+
+
+.aside .white-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; 
+    font-size: 15px;
+}
+
+.off{
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.h p, .h h1 {
+    margin-top: 15px;
+}
+
+
+
